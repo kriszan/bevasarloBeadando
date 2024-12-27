@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" android:id="@+id/main">
+
+    <EditText
+        android:id="@+id/t_termek_nev"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Termék név" />
+
+    <EditText
+        android:id="@+id/t_egysegar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Egységár" />
+
+    <EditText
+        android:id="@+id/t_mennyiseg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:hint="Mennyiség" />
+
+    <EditText
+        android:id="@+id/t_mertekegyseg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mértékegység" />
+
+    <Button
+        android:id="@+id/t_modositas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Módosítás" />
+
+    <Button
+        android:id="@+id/t_torles"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Törlés" />
+
+    <Button
+        android:id="@+id/t_megse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mégse" />
+
+</LinearLayout>
